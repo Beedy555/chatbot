@@ -20,8 +20,11 @@ $app->post('/chatbot', function (Request $request, Response $response, array $ar
 	$action = $bot_logic->find_intent($parsed_body);
 
 	switch ($action) {
-		case '':
-			$bot_response = $bot_logic->get_all_dogs('');
+		case 'i-would-like-to-rehome-an-animal':
+			$bot_response = $bot_logic->format_reponse(
+        'What type of animal would you like to rehome?',
+        'What type of animal would you like to rehome?'
+      );
 			break;
 		case '':
 			$bot_response = $bot_logic->get_all_cats('');
