@@ -21,10 +21,10 @@ $app->post('/chatbot', function (Request $request, Response $response, array $ar
 
 	switch ($action) {
 		case '':
-			$bot_response = $bot_logic->get_all_dogs();
+			$bot_response = $bot_logic->get_all_dogs('');
 			break;
 		case '':
-			$bot_response = $bot_logic->get_all_cats();
+			$bot_response = $bot_logic->get_all_cats('');
 			break;
 		default:
 			$bot_response = $bot_logic->format_reponse(
