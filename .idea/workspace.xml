@@ -16,9 +16,11 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="345">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="e#7#29#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,8 +28,8 @@
       <file leaf-file-name="Botlogic.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Botlogic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="522">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -75,8 +77,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="135" />
+    <option name="x" value="-90" />
+    <option name="y" value="174" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -108,6 +110,11 @@
               <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatbot" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="chatbot" type="b2602c69:ProjectViewProjectNode" />
@@ -159,15 +166,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512647600939</updated>
-      <workItem from="1512647602181" duration="2629000" />
+      <workItem from="1512647602181" duration="4006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2629000" />
+    <option name="totallyTimeSpent" value="4006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="135" width="1440" height="877" extended-state="0" />
+    <frame x="-90" y="174" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -224,16 +231,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="e#7#29#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/Botlogic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="522">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
