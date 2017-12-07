@@ -35,33 +35,15 @@ class Botlogic
 		return $this->response_template;
 	}
 
-	function get_all_dogs($pie_data)
+	function get_all_dogs()
 	{
-		$winner = reset($pie_data);
-
 		return $this->format_reponse(
-			'The best mince pie, according to experts, is ' . $winner['name'], 
-			'The best mince pie, according to experts, is ' . $winner['name'], 
-			$winner
 		);
 	}
 
-	function get_leaderboard($pie_data)
+	function get_all_cats()
 	{
-		$leaderboard = 'Current leaderboard: ';
-
-		$leaderboard_pies = array();
-
-		foreach ($pie_data as $data) {
-			$leaderboard_pies[] = $data['name'] . ' with ' . $data['averages']['non_rounded_rating'];
-		}
-
-		$leaderboard .= implode(', ', $leaderboard_pies);
-
 		return $this->format_reponse(
-			$leaderboard, 
-			$leaderboard, 
-			$pie_data
 		);
 	}
 
